@@ -1,0 +1,7 @@
+from time import sleep
+altura=float(input('Digite o tamanho da altura do retângulo em metros:'))
+base=float(input('Digite o tamanho da base do retângulo em metros:'))
+área=base*altura
+print('Calculando...')
+sleep(2)
+print(f'A área do retângulo é {área} metros')
